@@ -113,7 +113,7 @@ jobs:
     - name: luci-app-adguardhome
       run: |
         cd openwrt/package 
-        git clone https://github.com/Hyy2001X/AutoBuild-Packages/tree/master/luci-app-adguardhome.git
+        git clone https://github.com/Hyy2001X/AutoBuild-Packages/tree/master/luci-app-adguardhome
     
     - name: Load custom feeds
       run: |
