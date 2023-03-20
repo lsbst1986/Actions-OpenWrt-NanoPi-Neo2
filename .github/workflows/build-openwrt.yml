@@ -95,7 +95,7 @@ jobs:
         cd openwrt/package 		
         git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argonn
         
-    - name: aliyundrive-webdav
+    - name: luci-app-unblockneteasemusic
       run: |
         cd openwrt/package 
         git clone --branch master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
